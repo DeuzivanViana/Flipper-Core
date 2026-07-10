@@ -9,8 +9,8 @@ class Image : public Drawable, public Transformable
 public:
 	Image(const uint8_t *const) noexcept;
 
-	virtual void setWidth(const uint8_t) noexcept;
-	virtual void setHeight(const uint8_t) noexcept;
+	void setWidth(const uint8_t) noexcept;
+	void setHeight(const uint8_t) noexcept;
 	const uint8_t &getWidth() const noexcept;
 	const uint8_t &getHeight() const noexcept;
 

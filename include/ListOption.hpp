@@ -14,10 +14,10 @@ class ListOption
 public:
 	ListOption() noexcept;
 
-	virtual void push(const Option) noexcept;
+	void push(const Option) noexcept;
 	const uint8_t &getSize() const noexcept;
 	const Option *at(const uint8_t) const noexcept;
-	virtual void flush() noexcept;
+	void flush() noexcept;
 
 	virtual ~ListOption() noexcept;
 private:

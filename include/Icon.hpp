@@ -3,8 +3,6 @@
 
 #include <Arduino.h>
 
-// To Create Icons use GIMP (image mode: Indexed) and export to BMP, so upload to https://javl.github.io/image2cpp/ and convert to Arduino Code with support to U8g2lib
-
 namespace Icon
 {
 	constexpr uint8_t SETTING [] PROGMEM = {

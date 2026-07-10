@@ -8,7 +8,7 @@ class Timer
 public:
     Timer() noexcept;
 
-    virtual void reset() noexcept;
+    void reset() noexcept;
     const unsigned long getMillis() const noexcept;
 
     virtual ~Timer() noexcept;
