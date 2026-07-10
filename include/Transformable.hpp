@@ -16,7 +16,7 @@ public:
 	virtual ~Transformable() noexcept;
 	
 private:
-	mutable uint8_t __x, __y;
+	uint8_t __x, __y;
 };
 
 #endif
