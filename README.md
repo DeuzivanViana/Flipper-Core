@@ -1,3 +1,5 @@
+![](screenshots/makethel.jpeg)
+
 # Flipper Core - Firmware 0x00A
 
 Recomendo fazer o upload para o Arduino usando Linux, pois só testei nele. No entanto, se você tem experiência com Windows fazendo o upload desta base de código via arduino-cli (ou Arduino IDE*), envie uma PR mostrando os passos.
@@ -144,5 +146,3 @@ void loop()
 }
 ```
 
-## screenshots
-![](screenshots/makethel.jpeg)
